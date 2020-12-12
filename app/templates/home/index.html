@@ -1,0 +1,26 @@
+<!-- app/templates/home/index.html -->
+
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block body %}
+
+<div class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-15">
+                <div class="intro-message">
+                    <h1>H.R Solutions</h1>
+                    <h3>Managing your employees perfectly, since 1999</h3>
+                    <hr class="intro-divider">
+                    </ul>
+                    <br>
+                    <a href="{{ url_for('auth.login') }}" id="in">Admin Login</a>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="{{ url_for('auth.register') }}" id="out">Wait, You New Around Here? Let's Get Started!</a>                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
