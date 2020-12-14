@@ -83,7 +83,7 @@ p.copyright {
     padding-bottom: 8%;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/wall.jpg) no-repeat center center;
+    background: url(../img/city.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
 }
@@ -108,7 +108,7 @@ p.copyright {
 
 .content-section {
     padding-bottom: 8%;
-    text-align: center;
+    text-align:justify;
     color: #0f0a0a;
     background: url(../img/keyboard.jpg) no-repeat center center;
     background-size: cover;
@@ -125,9 +125,26 @@ p.copyright {
 
 .content-section>h1 {
     margin: 0;
-    font-size: 5em;
+    font-size:medium;
     color: #060707;
 }
+.admin_dash {
+    padding-bottom: 8%;
+    text-align:justify;
+    color: #0f0a0a;
+    background: url(../img/chart.jpg) no-repeat center center;
+    background-size: cover;
+    height: 1000%;
+}
+
+.admin_dash {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 40%;
+    text-align: center;
+    margin-right: 0;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
